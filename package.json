@@ -1,0 +1,22 @@
+{
+  "name": "teglalap-terulet-kerulet",
+  "version": "1.0.0",
+  "description": "Téglalap területe és kerülete",
+  "engines": {
+    "node": "11.x"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./js/app.js",
+    "start-debug": "node --debug=5858 ./js/app.js",
+    "install:nodemodules": "npm install",
+    "compile": "tsc",
+    "nodemon": "nodemon --inspect -q ./js/app.js",
+    "kill": "taskkill /im node.exe /F"
+  },
+  "author": "Vincze Gáspár",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.7.4"
+  }
+}
